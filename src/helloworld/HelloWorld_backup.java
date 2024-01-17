@@ -10,7 +10,7 @@ package helloworld;
  */
 
 import java.util.Scanner;
-//import java.util.ArrayList;
+import java.util.ArrayList;
 
 public class HelloWorld_backup
 {
@@ -25,7 +25,7 @@ public class HelloWorld_backup
         Scanner kb          = new Scanner(System.in);
         String input        = kb.nextLine();
      
-//        String chineseGod = "TianWang";
+        String chineseGod = "TianWang";
         
 //        ArrayList<>characters = new ArrayList<>();
 //        characters.add("3");
