@@ -11,12 +11,15 @@ package helloworld;
 public class Student {
     private int sID;
     private String StudentName;
-
-    public Student(int sID, String StudentName) {
-        this.sID = sID;
-        this.StudentName = StudentName;
-    }
+    private String address;
     
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
     
     
     public int getsID() {
@@ -35,5 +38,8 @@ public class Student {
         this.StudentName = StudentName;
     }
     
-    
+    public Student(int sID, String StudentName) {
+        this.sID = sID;
+        this.StudentName = StudentName;
+    }
 }
