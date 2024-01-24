@@ -5,7 +5,8 @@
 package helloworld;
 
 /**
- * Hello, this is changed on remote
+ * Hello, this is changed on remote(Pull)
+ * This is for fetch and merge
  * @author My Personal Computer
  */
 public class Student {
